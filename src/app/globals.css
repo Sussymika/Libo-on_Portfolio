@@ -8,8 +8,10 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-neon-pink: #ff00e6;
+  --color-neon-cyan: #00eaff;
+  --color-neon-purple: #8a2be2;
+  --color-neon-yellow: #faff00;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +25,29 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.glow {
+  text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff;
+}
+
+.glow-pink {
+  text-shadow: 0 0 10px #ff00e6, 0 0 20px #ff00e6;
+}
+
+.neon-border {
+  box-shadow: 0 0 15px #00eaff, inset 0 0 15px #00eaff;
+}
+
+.neon-card {
+  transition: 0.3s;
+}
+
+.neon-card:hover {
+  box-shadow: 0 0 25px #ff00e6, inset 0 0 25px #ff00e6;
+  transform: scale(1.03);
 }
