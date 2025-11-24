@@ -165,7 +165,7 @@ export default function Home() {
 
 
   const contactDetails = [
-    { label: "Email", value: "liboondylan@gmail.com", hint: "Expect a reply in 24h" },
+    { label: "Email", value: "liboondylan21@gmail.com", hint: "Expect a reply in 24h" },
     { label: "Phone", value: "+63 966 642 7246", hint: "Mon – Fri, 9am to 6pm PHT" },
     { label: "Location", value: "Iloilo City, Philippines", hint: "Open to remote" },
   ];
@@ -264,7 +264,7 @@ export default function Home() {
                 <div className="flex justify-between text-gray-400">
                   <span>Email</span>
                   <a href="mailto:libo-ondy@gmail.com" className="text-white hover:text-teal-300 transition-colors">
-                    libo-ondylan@gmail.com
+                    liboondylan21@gmail.com
                   </a>
                 </div>
                 <div className="flex justify-between text-gray-400">
