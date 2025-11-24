@@ -136,7 +136,7 @@ export default function Home() {
       tags: ["Product design", "React Native", "Subscriptions"],
       links: [
         { label: "Case Study", url: "#" },
-        { label: "Prototype", url: "#" },
+        { label: "Live Demo", url: "#" },
       ],
     },
     {
@@ -147,7 +147,7 @@ export default function Home() {
       tags: ["Web experience", "Next.js", "CMS"],
       links: [
         { label: "GitHub", url: "#" },
-        { label: "Live Demo", url: "#" },
+        { label: "Launch Site", url: "#" },
       ],
     },
     {
@@ -158,15 +158,15 @@ export default function Home() {
       tags: ["Brand system", "Motion", "Landing page"],
       links: [
         { label: "Style Guide", url: "#" },
-        { label: "Launch Site", url: "#" },
+        { label: "Live Demo", url: "#" },
       ],
     },
   ];
 
 
   const contactDetails = [
-    { label: "Email", value: "libo-ondy@gmail.com", hint: "Expect a reply in 24h" },
-    { label: "Phone", value: "+63 923 429 5637", hint: "Mon – Fri, 9am to 6pm PHT" },
+    { label: "Email", value: "liboondylan@gmail.com", hint: "Expect a reply in 24h" },
+    { label: "Phone", value: "+63 966 642 7246", hint: "Mon – Fri, 9am to 6pm PHT" },
     { label: "Location", value: "Iloilo City, Philippines", hint: "Open to remote" },
   ];
   useEffect(() => {
@@ -264,13 +264,13 @@ export default function Home() {
                 <div className="flex justify-between text-gray-400">
                   <span>Email</span>
                   <a href="mailto:libo-ondy@gmail.com" className="text-white hover:text-teal-300 transition-colors">
-                    libo-ondy@gmail.com
+                    libo-ondylan@gmail.com
                   </a>
                 </div>
                 <div className="flex justify-between text-gray-400">
                   <span>Phone</span>
                   <a href="tel:+639234295637" className="text-white hover:text-teal-300 transition-colors">
-                    +63 923 429 5637
+                    +63 966 642 7246
                   </a>
                 </div>
                 <div className="flex justify-between text-gray-400">
